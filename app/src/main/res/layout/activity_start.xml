@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#00F2FF00"
+    tools:context=".StartActivity">
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="60sp"
+      android:paddingBottom="40sp"
+      android:src="@drawable/tel" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="casual"
+      android:text="Telega"
+      android:textAlignment="center"
+      android:textColor="#020202"
+      android:textSize="30sp" />
+
+  <Button
+      android:id="@+id/login"
+      android:layout_width="240dp"
+      android:layout_height="50dp"
+      android:layout_marginLeft="40sp"
+      android:layout_marginTop="20sp"
+      android:layout_marginRight="40sp"
+      android:backgroundTint="#B3DEA200"
+      android:fontFamily="casual"
+      android:hint="Enter"
+      android:includeFontPadding="false"
+      android:textAlignment="center"
+      android:textColorHint="#020202"
+      android:textSize="24sp" />
+
+  <Button
+      android:id="@+id/register"
+      android:layout_width="240dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="40sp"
+      android:layout_marginTop="10sp"
+      android:layout_marginRight="40sp"
+      android:backgroundTint="#B3DEA200"
+      android:fontFamily="casual"
+      android:hint="Register"
+      android:textAlignment="center"
+      android:textColorHint="#020202"
+      android:textSize="24sp" />
+
+</LinearLayout>
